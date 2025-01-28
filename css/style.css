@@ -2,12 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:200,300,400');
 
 
-body {
+body, html {
   background: #ffffff;
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 300;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
   
 
 }
@@ -141,6 +145,8 @@ a:hover, a:active, a:focus {
 #contact {
   text-align: center;
 }
+
+
 
 
 
@@ -647,11 +653,13 @@ a:hover, a:active, a:focus {
   
 
   #home .col-md-2 {
-    
     width: 50%;
     
    
   }
+
+
+
 
 }
 
@@ -667,4 +675,18 @@ a:hover, a:active, a:focus {
     height: 85px;
   }
 
+}
+
+
+
+section{
+  background-color: pink;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+.row{
+  background-color: lightblue;
 }
