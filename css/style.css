@@ -306,14 +306,14 @@ a:hover, a:active, a:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: pink;
+  
 
 }
 
 
 
 #home .col-md-2 {
-  border: 3px solid purple;
+  
   width: 40%;
  
 }
@@ -323,7 +323,7 @@ a:hover, a:active, a:focus {
 
 
 #home .row{
-  background-color: lightblue;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -331,7 +331,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .col-md-8 h1, #home .col-md-8 a{
-  background-color: purple;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -352,7 +352,7 @@ a:hover, a:active, a:focus {
 #home .col-md-offset-1{
   padding: 0;
   margin: 0;
-  background-color: orange;
+  
 }
 
 /*---------------------------------------
@@ -647,9 +647,9 @@ a:hover, a:active, a:focus {
   
 
   #home .col-md-2 {
-    border: 3px solid purple;
+    
     width: 50%;
-    background-color: yellow;
+    
    
   }
 
