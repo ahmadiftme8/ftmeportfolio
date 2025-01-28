@@ -265,7 +265,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .navbar-toggle {
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
@@ -284,7 +284,14 @@ a:hover, a:active, a:focus {
       padding: 10px 0;
     }
 
+
+
+ 
+
 }
+
+
+
 
 
 
@@ -628,6 +635,51 @@ a:hover, a:active, a:focus {
   #home{
     height: 90vh;
   }
+
+
+/* 
+  .navbar{
+    padding: 0;
+    margin: 0;
+  }
+  .navbar .container{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+   
+  }
+  
+  .navbar-header{
+    background-color: pink;
+    border: 3px solid purple;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    align-items: center;
+    
+    
+  }
+  
+  .navbar-brand{
+    background-color: darkolivegreen;
+  }
+  
+
+  
+  .navbar-header button{
+    background-color: green;
+   color: red;
+   fill: orange;
+   border: 3px solid rgb(0, 28, 128);
+  }
+  .navbar-collapse{
+    background-color: yellow;
+  } */
 
 }
 
