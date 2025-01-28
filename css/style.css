@@ -7,9 +7,7 @@ body, html {
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 300;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   padding: 0;
   margin: 0;
   
@@ -679,14 +677,4 @@ a:hover, a:active, a:focus {
 
 
 
-section{
-  background-color: pink;
-  display: flex;
-  justify-self: center;
-  align-self: center;
-  justify-content: center;
-  align-items: center;
-}
-.row{
-  background-color: lightblue;
-}
+
