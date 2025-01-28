@@ -1,18 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css?family=Muli:200,300,400');
 
+
 body {
   background: #ffffff;
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 300;
-  overflow-x: hidden;
+  
+  
+
 }
 
-html, body {
-  width: 100%;
-  height: 100%;
-}
+
 
 
 
@@ -301,26 +301,59 @@ a:hover, a:active, a:focus {
   justify-content: center;
 }
 
-#home .container{
+.container{
   
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: pink;
 
 }
 
-#home img {
-  
+
+
+#home .col-md-2 {
+  border: 3px solid purple;
+  width: 40%;
  
 }
 
 
-.col-md-offset-1 img{
-  width: 100%;
-  height: 100%;
+
+
+
+#home .row{
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#home .col-md-8 h1, #home .col-md-8 a{
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 1rem;
   
 }
 
+#home .col-md-8{
+  padding: 0;
+  width: 100%;
+}
+
+
+#home .col-md-offset-1{
+  padding: 0;
+  margin: 0;
+  background-color: orange;
+}
 
 /*---------------------------------------
   About section              
@@ -517,8 +550,11 @@ a:hover, a:active, a:focus {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   #home {
-    height: 50vh;
+    height: 90vh;
   }
+
+
+
 }
 
 @media (min-width: 667px) and (max-width: 767px) {
@@ -569,6 +605,22 @@ a:hover, a:active, a:focus {
     margin-bottom: 5px;
   }
 
+
+  .col-md-offset-1 img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+
+    
+  }
+
+  #home{
+    height: 90vh;
+  }
+
 }
 
 
@@ -592,12 +644,13 @@ a:hover, a:active, a:focus {
     
   }
 
-  .col-md-offset-1 img{
-    width: 50%;
-    height: 50%;
-    display: flex;
+  
 
-    
+  #home .col-md-2 {
+    border: 3px solid purple;
+    width: 50%;
+    background-color: yellow;
+   
   }
 
 }
